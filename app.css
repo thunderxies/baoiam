@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&family=Source+Sans+Pro:wght@600&display=swap');
+
+
+
+/*dark mode waala button ka hai ye*/
+#toggleDark {
+    /* position: relative;
+    top: -16px;
+    height: 40px;
+    right: -1200px; */
+    /* flex: 1;
+    text-align: center; */
+    background: linear-gradient(270deg, #, orange);
+    box-shadow: none;
+    padding: 0 12px;
+    min-width: 0;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 4px;
+    transition: all .3s ease;
+    position: absolute;
+    /* top: 0%;
+    left: 0%;
+    right: 100%;
+    bottom: 100%; */
+    transition-property: transform; 
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    margin: -55px 10px 10px 1350px;
+    transition-delay: 0s;
+}
+#toggleDark:hover
+{
+    transform: translateY(-10px);
+}
+
+
+#body1 {
+    background-color: #e5e9e7;
+    width: 1440px;
+    height: 70px;
+    padding: 0px;
+}
+#body{
+    margin: 10px;
+    padding: 0;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    margin: 10px 10px 10px -90px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    filter: drop-shadow(10px 10px 9px #808080);
+}
+
+#logo:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+#top{
+    background: linear-gradient(270deg, #ff5757, orange);
+    box-shadow: none;
+    padding: 0 12px;
+    min-width: 0;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 4px;
+    transition: all .3s ease;
+    position: absolute;
+        
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    filter: drop-shadow(10px 10px 10px #808080);
+
+}
+#top:hover {
+    transform: translateY(-10px);
+    color: white;
+}
+#top2{
+    background: linear-gradient(270deg, #ff5757, orange);
+    box-shadow: none;
+    padding: 0 20px;
+    min-width: ;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 4px;
+    transition: all .3s ease;
+    position: absolute;
+        
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    filter: drop-shadow(10px 10px 10px #808080);
+
+}
+#top2:hover {
+    transform: translateY(-10px);
+    color: white;}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li 
+{
+    display: inline-block;
+    list-style: none;
+        margin:-50px 85px 100px 90px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #606163;
+}
+
+/*this is from where body starts that swiper effect ka hai yaha se ono*/
+
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(270deg, #ff5757, orange);
+    overflow: hidden;
+
+}
+/*swiper part*/
+ .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+.swiper-slide:hover {
+    transform: translateY(-10px);
+    color: white;
+}
+
+
+
+
+/*swiper part ends*/
+/*end of body part*/
+
+.courses{
+    text-align: center;
+}
+
+/*courses waala ka effect*/
+.btn-1
+{
+    width: 200px;
+    height:100;
+    border:green;
+    color:white;
+     background: linear-gradient(270deg, #ff5757, orange);
+    border-radius:4px;
+    box-shadow:inset 0 0 0 0 #f9e506;
+    transition:ease-out 0.3s;
+    font-size:2rem;
+    outline:none;
+}
+
+.btn-1:hover
+{
+    color:black;
+    cursor:pointer;
+    box-shadow:inset 200px 0 0 0 #f9e506;
+    
+}
+/*courses waala ka effect band*/
+
+
+/*sir log waala ka effect start*/
+
+
+
+
+
+
+.container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.container .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.container .card .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.container .card:hover .content {
+    transform: translateY(-20px);
+}
+
+.container .card .content .imgBx {
+    position: relative;
+    width: 298px;
+    height: 329px;
+    overflow: hidden;
+}
+
+.container .card .content .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .content .contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.container .card .sci {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+
+.container .card .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .card:hover .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container .card .sci li a {
+    color: #fff;
+    font-size: 20px;
+}
+/*sir log waala ka effect band*/
+
+
+.typo {
+  height: 10vh;
+  /*This part is important for centering*/
+  display:grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+
+
+/*dfsdfsdfds*/

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="app.css">
+    <title>Baoiam</title>
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div>
+
+            <div id="body1">
+                <nav>
+        <img src="logo.png" id="logo">
+        <ul>
+       <li> <div id="top2">HOME</div></li>
+        <li><div id=top>ABOUT US</div></li>
+       <li><div id="top">CONTACT US</div></li>
+       <li> <div id="top">LOGIN</div></li>
+       
+        </ul>
+        </nav>
+        <div class="info">
+            
+        <div class="typo">
+    <div class="typing-demo">
+      BE ONE IN A MILLION
+    </div>
+</div>
+
+           <!--body-->
+           <div class="courses">             
+            <button class="btn-1"> 
+                COURSES
+            </button>           
+        </div>
+
+
+             <!-- YE HAI EAK SECTION KE ANDAR SWIPER WAALA -->
+            <section>
+                <!--this is swiper -->
+                 <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">        𝘾𝙊𝙐𝙍𝙎𝙀 1
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />AI/ML
+        </div>
+        <div class="swiper-slide"> course 2: 
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />DSA
+        </div>
+        <div class="swiper-slide">course 3
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />PYTHON
+        </div>
+        <div class="swiper-slide"> course 4
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />C++ BASICS
+        </div>
+        <div class="swiper-slide">course 5
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />ADVANCE CONCEPTS
+        </div>
+        <div class="swiper-slide">course 6
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />SWIFT 
+        </div>
+        <div class="swiper-slide">course 7
+          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />RUBY ON RAILS
+        </div>
+        <div class="swiper-slide">course 8
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />MATLAB
+        </div>
+        <div class="swiper-slide">course 9
+          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />CHILL BRO
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+     <!--this is swiper ending -->
+
+            </section>
+            <!--SECTION KO BAND KIYE YAHA-->
+
+
+
+                <div class="courses">             
+            <button class="btn-1"> 
+                EXPERTS
+            </button>           
+        </div>
+
+
+
+<!-- ab ye hai aapka sid sir mitttal sir aur john wick ka code waala part woahoooo... aur batao kaisa hai zindigi tumhara mera sub sahi hai ab batao-->
+
+
+
+
+            <section>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="sid.png">
+                    </div>
+                    <div class="contentBx">
+                        <h3>SID SIR<br><span>CEO BAOIAM</span></h3>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="logo.png">
+                    </div>
+                    <div class="contentBx">
+                        <h3>JOHN WICK<br><span>THE MATRIX MAN</span></h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="mittal.png">
+                    </div>
+                    <div class="contentBx">
+                        <h3>MITTAL SIR<br><span>CEO PEOPLE GROUP</span></h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+                <div class="courses">             
+            <button class="btn-1"> 
+                EXPERTS
+            </button>           
+        </div>
+
+
+
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<!--body end-->
+
+
+                    </div>
+            </div>
+        <div id="body2">
+        </div>
+  
+        <img src="moon.png" id="toggleDark">
+
+    
+    </div>
+
+
+
+ <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+
+
+
+
+ <!-- Swiper JS  ends-->
+
+<!--body ke niche waala ka part hai ye ab-->
+
+    
+
+
+
+
+</div>
+
+
+</body>
+
+</html>
